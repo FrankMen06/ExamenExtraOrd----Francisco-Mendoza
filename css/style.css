@@ -38,6 +38,7 @@ h1{
 
 .conten{
     display: inline-flex;
-    margin-left: 640px;
-    size: 20px;
+    margin-left: 870px;
+    color: red;
+    font-size: 30px;
 }
