@@ -2,10 +2,7 @@ var color = "<div style = 'background-color:'red'; width: 150px; height: 300px;'
 
 var primBand = 0;
 var secBand = 0;
-
 var valMult = 1;
-
-
 var valtol = 5;
 
 
@@ -28,11 +25,12 @@ function cambios(){
 
 function cambio1(){
    // var color1 = document.getElementById("color1").style.color = "red";
-    if(onclick == true){
-        document.getElementById("color1").style.color = "red";
-    }
 
-    
+   var estilo = "<style = {background-color: 'red';}></style>"
+
+   var color = document.getElementById("color1").value;
+
+    color.innerHTML = estilo;
 }
 
 function cambio2(){
@@ -46,5 +44,4 @@ function cambio3(){
 function cambio4(){
     
 }
-
 
